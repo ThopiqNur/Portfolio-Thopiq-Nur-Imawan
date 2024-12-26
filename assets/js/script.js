@@ -248,3 +248,13 @@ srtop.reveal('.experience .timeline .container', { interval: 400 });
 /* SCROLL CONTACT */
 srtop.reveal('.contact .container', { delay: 400 });
 srtop.reveal('.contact .container .form-group', { delay: 400 });
+
+function updateTitle() {
+    document.title = text.substring(index) + text.substring(0, index);
+    index++;
+    if (index >= text.length) {
+      index = 0;
+    }
+  }
+
+  setInterval(updateTitle, 300); // Ubah interval sesuai kecepatan
