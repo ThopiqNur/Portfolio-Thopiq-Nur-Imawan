@@ -385,7 +385,97 @@
       </a>
     </div>
     -->
+<!-- certificates section starts -->
+<section class="certificates" id="certificates">
 
+  <h2 class="heading"><i class="fas fa-certificate"></i> Certificates</h2>
+
+  <div class="container">
+    <div class="certificates-grid">
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Galeri Sertifikat</title>
+        
+      
+        <!-- Semua Sertifikat -->
+        <div class="certificate-card">
+          <img src="./assets/images/sertifikat/sertif1.jpg" alt="Business English Course – Bina Bahasa Jaya USM" onclick="openModal(this)">
+          <span>Business English Course – Bina Bahasa Jaya USM</span>
+        </div>
+      
+        <div class="certificate-card">
+          <img src="./assets/images/sertifikat/sertif2.jpg" alt="Toefl Course - Bina Bahasa Jaya USM" onclick="openModal(this)">
+          <span>Toefl Course - Bina Bahasa Jaya USM</span>
+        </div>
+      
+        <div class="certificate-card">
+          <img src="./assets/images/sertifikat/sertif3.jpg" alt="TOEFL Prediction Test – Bina Bahasa Jaya USM" onclick="openModal(this)">
+          <span>TOEFL Prediction Test – Bina Bahasa Jaya USM</span>
+        </div>
+      
+        <div class="certificate-card">
+          <img src="./assets/images/sertifikat/sertif4.jpg" alt="CCNAv7 Introduction to Networks - Cisco Networking Academy" onclick="openModal(this)">
+          <span>CCNAv7 Introduction to Networks - Cisco Networking Academy</span>
+        </div>
+      
+        <div class="certificate-card">
+          <img src="./assets/images/sertifikat/sertif5.jpg" alt="Intern IT Support - Dinas PU Bina Marga dan Cipta Karya Provinsi Jawa Tengah" onclick="openModal(this)">
+          <span>Intern IT Support - Dinas PU Bina Marga dan Cipta Karya Provinsi Jawa Tengah</span>
+        </div>
+      
+        <div class="certificate-card">
+          <img src="./assets/images/sertifikat/loa.jpg" alt="LoA Artikel Karya Ilmiah Sinta 4 - Jurnal Saintikom" onclick="openModal(this)">
+          <span>LoA Artikel Karya Ilmiah Sinta 4 - Jurnal Saintikom</span>
+        </div>
+      
+        <div class="certificate-card">
+          <img src="./assets/images/sertifikat/sertif6.jpg" alt="Pelatihan Microsoft Excel Staf Administrasi - Talenesia" onclick="openModal(this)">
+          <span>Pelatihan Microsoft Excel Staf Administrasi - Talenesia</span>
+        </div>
+      
+        <div class="certificate-card">
+          <img src="./assets/images/sertifikat/sertif7.jpg" alt="TOEFL Prediction 2024 - Daily Bahasa Inggris / PT. Daily Cipta Dwipa" onclick="openModal(this)">
+          <span>TOEFL Prediction 2024 - Daily Bahasa Inggris / PT. Daily Cipta Dwipa</span>
+        </div>
+      
+        <div class="certificate-card">
+          <img src="./assets/images/sertifikat/sertif8.png" alt="Pelatihan Dasar Admin Perkantoran - Talenesia" onclick="openModal(this)">
+          <span>Pelatihan Dasar Admin Perkantoran - Talenesia</span>
+        </div>
+      
+        <!-- Modal Zoom Gambar -->
+        <div id="imgModal" class="modal" onclick="closeModal()">
+          <span class="close" onclick="closeModal()">&times;</span>
+          <img class="modal-content" id="modalImage">
+        </div>
+      
+        <!-- Script Zoom -->
+        <script>
+          function openModal(imgElement) {
+            const modal = document.getElementById("imgModal");
+            const modalImg = document.getElementById("modalImage");
+            modal.style.display = "block";
+            modalImg.src = imgElement.src;
+          }
+      
+          function closeModal() {
+            document.getElementById("imgModal").style.display = "none";
+          }
+        </script>
+      
+      </body>
+      </html>
+      
+            
+          </div>
+        </div>
+      </section>
+      
+  
+  <!-- experience section end -->
   </section>
   <!-- work project section ends -->
 
